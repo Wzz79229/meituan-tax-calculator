@@ -1,0 +1,2 @@
+Simplified Chinese model from https://github.com/naptha/tessdata
+Model source and Apache-2.0 license: https://github.com/tesseract-ocr/tessdata_best
