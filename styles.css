@@ -81,6 +81,7 @@ h2 { font-size: 18px; line-height: 1.36; font-weight: 700; }
 .install { margin-top: 9px; min-height: 32px; padding: 4px 9px; }
 .status { margin: 10px 0 0; color: var(--quiet); font-size: 13px; line-height: 1.55; }
 .status.error { color: #9b2d26; }
+#ocr-retry { margin-top: 6px; }
 .review {
   margin: 14px 0 0; padding: 8px 11px 11px; border: 1px solid #d4dfef;
   border-radius: 8px; color: #25354d; font-size: 13px;
