@@ -10,8 +10,8 @@
   <link rel="manifest" href="./manifest.webmanifest">
   <link rel="icon" href="./icons/icon-192.png">
   <link rel="apple-touch-icon" href="./icons/icon-192.png">
-  <link rel="stylesheet" href="./styles.css">
-  <script type="module" src="./src/app.js?v=1.0.7"></script>
+  <link rel="stylesheet" href="./styles.css?v=1.0.8">
+  <script type="module" src="./src/app.js?v=1.0.8"></script>
 </head>
 <body>
   <main class="screen">
@@ -32,6 +32,13 @@
 
     <section class="controls" aria-labelledby="controls-label">
       <h2 id="controls-label">报税数据</h2>
+      <div class="year-row">
+        <label for="tax-year">账单年份</label>
+        <select id="tax-year" name="taxYear">
+          <option value="">自动识别</option>
+        </select>
+        <input id="custom-year" type="text" inputmode="numeric" maxlength="4" autocomplete="off" placeholder="四位年份" aria-label="输入四位年份" hidden>
+      </div>
       <div class="controls-line">
         <div class="modes" role="group" aria-label="计算方式">
           <button type="button" data-mode="quarter" aria-pressed="true">按季度</button>
